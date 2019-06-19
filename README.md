@@ -3,12 +3,12 @@
 
 ## 运行环境
 
-- [nodejs](https://nodejs.org)
+  - [nodejs](https://nodejs.org)
 
-  + npm (nodejs内置)
-  
-- [yarn](https://yarnpkg.com)
-- [pm2](https://www.npmjs.com/package/pm2)
+    + npm (nodejs内置)
+    
+  - [yarn](https://yarnpkg.com)
+  - [pm2](https://www.npmjs.com/package/pm2)
 
 > `npm`和`yarn`选其一即可，推荐使用`yarn`
 
@@ -70,3 +70,9 @@ $.ajax({
 	}
 })
 ```
+
+## 示例
+
+  - 生成助记词：
+
+    ![brainKey](images/20190620050116.png)
