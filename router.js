@@ -4,7 +4,7 @@ const { ChainConfig } = require('bitsharesjs-ws');
 
 ChainConfig.setPrefix('DBX');
 
-router.get('/:method', async (ctx, next) => {
+router.post('/:method', async (ctx, next) => {
 	const { method } = ctx.params
 	const params = ctx.request.body
 

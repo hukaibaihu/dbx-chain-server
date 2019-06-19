@@ -9,7 +9,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "co": "^4.6.0",
     "dbx-chain-tools": "^2.0.0",
     "debug": "^2.6.3",
     "koa": "^2.7.0",
